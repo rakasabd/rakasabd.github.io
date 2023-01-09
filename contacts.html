@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="index.css">
+    <title>The gamer</title>
+    
+</head>
+<body>
+  <header style="position: relative;">
+
+    <div class="w3-top" class="header" id="home">
+      <div class="w3-bar  w3-card w3-left-align w3-large heeder-large-screen" style="background-color: #000015;" >
+        <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-black w3-large " href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+        <a href="#home" class="w3-bar-item w3-padding-large  logo">RksAbdXD</a>
+        <div >
+          <a href="#about" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-black" >About</a>
+          <a href="file:///C:/Users/DeLL/OneDrive/Desktop/gamersite/game.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-black"> Games</a>
+          <a href="file:///C:/Users/DeLL/OneDrive/Desktop/gamersite/shop.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-black">Shop</a>
+          <a href="#events" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-black">Events</a>
+          <a href="file:///C:/Users/DeLL/OneDrive/Desktop/gamersite/contacts.html#contact" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-black">Contact</a>
+        </div>
+    
+      </div>
+
+      <!-- Navbar f screen sghira -->
+      <div id="navDemo" class="w3-bar-block  w3-hide w3-hide-large w3-hide-medium w3-large">
+        <a href="#about" class="w3-bar-item w3-button w3-padding-large"onclick="myFunction()">About</a>
+        <a href="file:///C:/Users/DeLL/OneDrive/Desktop/gamersite/game.html" class="w3-bar-item w3-button w3-padding-large"onclick="myFunction()">Games</a>
+        <a href="file:///C:/Users/DeLL/OneDrive/Desktop/gamersite/shop.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Shop</a>
+        <a href="#events" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Events</a>
+        <a href="file:///C:/Users/DeLL/OneDrive/Desktop/gamersite/contacts.html#contact" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Contact</a>
+      </div>
+    </div>
+  </header>
+  <div id="contact" class="reqeste">
+    <div class="container">
+       <div class="row">
+          <div class="col-md-12">
+             <div class="titlepage">
+              <h3>CONTACT US</h3>
+                <span></span>
+             </div>
+          </div>
+       </div>
+       <div class="row">
+          <div class="col-md-6 offset-md-3">
+             <form id="cochang" class="form_main"><br>
+                <div class="row">
+                   <div class="col-md-12">
+                      <input class="form_control" placeholder=" Name" type="text" name=" Name">
+                   </div>
+                   <div class="col-md-12">
+                      <input class="form_control" placeholder=" Phone number" type="text" name=" Phone number">
+                   </div>
+                   <div class="col-md-12">
+                      <input class="form_control" placeholder=" Email" type="text" name=" Email">
+                   </div>
+                   <div class="col-md-12"> 
+                      <input class="form_control" placeholder=" Message" type="text" name=" Message">
+                   </div>
+                   <div class="col-md-12">
+                      <button class="send_btn">Send</button>
+                   </div>
+                </div>
+             </form><br><br>
+             <span class="w3-text-white social " style="text-align: center; margin-top: 60px;">
+               
+               <p >Contact us on Social media</p>
+               <div>
+            <a href="https://www.facebook.com/">  <i class="fa fa-facebook-official w3-hover-opacity text-primary icons" ></i></a> 
+            <a href="https://www.instagram.com/"><i class="fa fa-instagram w3-hover-opacity text-danger icons" ></i></a> 
+            <a href="https://accounts.snapchat.com/accounts/login?continue=%2Faccounts%2Fwelcome"><i class="fa fa-snapchat w3-hover-opacity text-warning icons"></i></a>  
+            <a href="https://www.pinterest.com/"><i class="fa fa-pinterest-p w3-hover-opacity text-danger icons" ></i></a>  
+            <a href="https://www.twitter.com/"><i class="fa fa-twitter w3-hover-opacity text-primary icons"></i></a>  
+            <a href="https://www.linkedin.com//"><i class="fa fa-linkedin w3-hover-opacity text-primary icons"></i></a>  
+            </div>
+             </span>
+          </div>
+       </div>
+    </div>
+ </div>
+
+  
+<script>
+    // Used to toggle the menu on small screens when clicking on the menu button
+    function myFunction() {
+      var x = document.getElementById("navDemo");
+      if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+      } else { 
+        x.className = x.className.replace(" w3-show", "");
+      }
+    }
+    </script>
